@@ -1,6 +1,4 @@
-# Project Title
-
-Frans' Portfolio
+# Frans' Portfolio
 
 ## Description
 
