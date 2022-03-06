@@ -12,7 +12,7 @@ NPM is useful if you want to make changes but is not strictly necessary
 
 ### Installing
 
-All necessary files to run are included in the repo. Just clone and run the index.html file to see the results.
+All necessary files to run are included in the repo. Just clone and open the index.html file to see the website.
 
 To make changes the development dependencies have to be installed using
 ```
