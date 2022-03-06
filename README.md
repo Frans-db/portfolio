@@ -23,12 +23,18 @@ npm i
 
 Then run 
 ```
+npm run dev
+```
+to generate the css and javascript files.
+Alternatively run
+```
 npm run css
 ```
+and
 ```
 npm run script
 ```
-to generate the css and javascript files respectively
+to generate the css and javascript files in watch mode
 
 ## Version History
 
