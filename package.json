@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i tailwind.css -o style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frans-db/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frans-db/portfolio/issues"
+  },
+  "homepage": "https://github.com/Frans-db/portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23",
+    "tailwindcss-debug-screens": "^2.2.1"
+  }
+}
