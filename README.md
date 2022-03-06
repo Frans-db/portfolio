@@ -8,7 +8,7 @@ A mimimal portfolio built using tailwind and typescript
 
 ### Dependencies
 
-NPM is useful if you want to make changes but not strictly necessary 
+NPM is useful if you want to make changes but is not strictly necessary 
 
 ### Installing
 
