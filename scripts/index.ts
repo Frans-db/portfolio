@@ -1,7 +1,7 @@
 let portfolioShown: boolean = false;
 let portfolioModal: HTMLElement | null = document.getElementById("portfolio-container")
 
-function togglePortfolio(e: Event) {
+function togglePortfolio() {
     if (!portfolioModal) {
         return;
     }
@@ -19,7 +19,7 @@ function togglePortfolioExact(e: Event) {
     if (e.target !== e.currentTarget) {
         return;
     }
-    
+
     if (!portfolioModal) {
         return;
     }
@@ -31,4 +31,10 @@ function togglePortfolioExact(e: Event) {
     }
 
     portfolioShown = !portfolioShown;
+}
+
+document.onkeydown = function(e: KeyboardEvent) {
+    if (e.code == "Escape" && portfolioShown) {
+        togglePortfolio();
+    }
 }

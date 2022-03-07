@@ -1,7 +1,7 @@
 "use strict";
 let portfolioShown = false;
 let portfolioModal = document.getElementById("portfolio-container");
-function togglePortfolio(e) {
+function togglePortfolio() {
     if (!portfolioModal) {
         return;
     }
@@ -28,3 +28,8 @@ function togglePortfolioExact(e) {
     }
     portfolioShown = !portfolioShown;
 }
+document.onkeydown = function (e) {
+    if (e.code == "Escape" && portfolioShown) {
+        togglePortfolio();
+    }
+};
