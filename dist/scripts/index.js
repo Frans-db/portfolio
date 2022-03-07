@@ -13,3 +13,18 @@ function togglePortfolio(e) {
     }
     portfolioShown = !portfolioShown;
 }
+function togglePortfolioExact(e) {
+    if (e.target !== e.currentTarget) {
+        return;
+    }
+    if (!portfolioModal) {
+        return;
+    }
+    if (portfolioShown) {
+        portfolioModal.style.display = "none";
+    }
+    else {
+        portfolioModal.style.display = "block";
+    }
+    portfolioShown = !portfolioShown;
+}
