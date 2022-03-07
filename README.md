@@ -21,7 +21,7 @@ npm i
 
 Then run 
 ```
-npm run dev
+npm run build
 ```
 to generate the css and javascript files.
 Alternatively run
